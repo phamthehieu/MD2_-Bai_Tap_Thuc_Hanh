@@ -10,7 +10,7 @@ export class Book extends Librarian{
         this._pageNumber = pageNumber;
     }
 
-    getAuthor(): string {
+    getAuthor(documentAuthor: any): string {
         return this._author;
     }
 
@@ -18,7 +18,7 @@ export class Book extends Librarian{
         this._author = value;
     }
 
-    getPageNumber(): number {
+    getPageNumber(documentEditPageNumber: number): number {
         return this._pageNumber;
     }
 

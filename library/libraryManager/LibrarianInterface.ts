@@ -9,4 +9,6 @@ export interface LibrarianInterface<T> {
 
     check(id: number): number;
 
+    searchDocumentById(id: number): number;
+
 }
